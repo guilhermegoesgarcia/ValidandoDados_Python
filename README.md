@@ -10,7 +10,7 @@
 
 
 Este projeto consiste no desenvolvimento de um código para validação de dados cadastrais (ex: cpf, cnpj, endereço etc) no padrão nacional brasileiro.
-Sera utilizado os conceitos de orientação de objetos aplicados na linguaguem Python e verificação de CEP via API.
+Sera utilizado o conceito de orientação a objetos elem de uma conexão via API.
 
    ### Principais funcionalidades
 
