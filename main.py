@@ -1,16 +1,17 @@
-# This is a sample Python script.
+"Usaremos este arquivo para testar as lógicas"
+from validate_docbr import CPF,CNPJ
+from Cpf_Cnpj import Cpf_Cnpj
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+exemplo_cnpj = "35379838000112"
+exemplo_cpf = "32007832062"
 
+#cnpj = CNPJ()
+#print(cnpj.validate(exemplo_cnpj))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+documento = Cpf_Cnpj(exemplo_cnpj,'cnpj')
+print('')
+print(f'CNPJ: {documento}')
 
+documento2 = Cpf_Cnpj(exemplo_cpf,'cpf')
+print(f'CPF: {documento2}')
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
