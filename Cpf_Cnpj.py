@@ -1,7 +1,7 @@
 # Buscando pacote para validação de cpf no site https://pypi.org/
 from validate_docbr import CPF,CNPJ
 
-
+#Modelo Fatory
 class Documento:
     @staticmethod
     def cria_documento(documento):
