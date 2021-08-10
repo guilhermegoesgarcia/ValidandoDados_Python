@@ -3,3 +3,5 @@ from datas_br import DatasBr
 
 cadastro = DatasBr()
 print(cadastro)
+
+print(cadastro.tempo_cadastrado())
